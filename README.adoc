@@ -12,13 +12,10 @@ libCertifier() -
 * Tested on Arm (Raspberry Pi, Android, Ambarella, iOS), x86_64 (Ubuntu, MacOS, x86_32 (Ubuntu).
 * Shared library and command-line executable.
 
-Usage:
-    ./fetchOpsCert.sh <path_to_attestaion_cert_key.pkcs12> <password_pkcs12>
 
 .Example
 [source,bash]
 ----
-# *Source* block
 # Usage: 
 # 
 ./fetchOpsCert.sh <path_to_attestaion_cert_key.pkcs12> <password_pkcs12>
