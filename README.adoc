@@ -9,18 +9,9 @@ libCertifier() -
 ** stores it is pkcs12 bundle
 * Written in C.
 * Small binary size (less than 100 KB) that is ideal for embedded systems.
-* Tested on Arm (Raspberry Pi, Android, Ambarella, iOS), x86_64 (Ubuntu, MacOS, x86_32 (Ubuntu).
+* Tested on Arm (Raspberry Pi, Android, xCam, http://i.MX[i.MX], Ambarella, iOS), x86_64 (Ubuntu, MacOS, x86_32 (Ubuntu).
 * Shared library and command-line executable.
 
-
-.Example
-[source,bash]
-----
-# Usage: 
-# 
-./fetchOpsCert.sh <path_to_attestaion_cert_key.pkcs12> <password_pkcs12>
-# opsCert.p12 is created in ../../build with password defined in libcertfier.cfg
-----
 Documentation
 
 * xref:docs/libcertifier.adoc[Manual]
